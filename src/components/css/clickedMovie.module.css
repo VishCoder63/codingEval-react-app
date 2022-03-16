@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  paddding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clickedMovie {
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 1.4rem;
+  margin-top: 7rem;
+}
+.clickedMovie > div:nth-child(1) {
+  width: 50%;
+  height: 100%;
+}
+.clickedMovie > div:nth-child(2) {
+  width: 45%;
+  height: 50%;
+  margin: auto;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  border-radius: 10%;
+  padding: 2%;
+}
+.clickedMovie > div:nth-child(2) .tags {
+  display: inline-block;
+  height: 2rem;
+  box-sizing: content-box;
+  padding: 0.5rem;
+  background-color: rgb(224, 221, 221);
+  border-radius: 5%;
+  margin: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.clickedMovie > div:nth-child(2) p {
+  text-align: left;
+  margin-left: 10%;
+}

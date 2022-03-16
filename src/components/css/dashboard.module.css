@@ -1,0 +1,27 @@
+.movie-card {
+  border: 2px dashed teal;
+  width: 20%;
+  height: 15rem;
+  margin: 1rem;
+}
+.movie-card > img {
+  height: 80%;
+  width: 100%;
+}
+
+#movie-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h2{
+  margin-top: 7rem;
+}
+
+select{
+  width: 70%;
+  height: 2rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding-left: 1%;
+}
