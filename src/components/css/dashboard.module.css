@@ -1,8 +1,12 @@
 .movie-card {
-  border: 2px dashed teal;
+  border: 3px dashed teal;
   width: 20%;
   height: 15rem;
   margin: 1rem;
+}
+.movie-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: .3s;
 }
 .movie-card > img {
   height: 80%;
@@ -14,11 +18,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-h2{
+h2 {
   margin-top: 7rem;
 }
 
-select{
+select {
   width: 70%;
   height: 2rem;
   margin: 1rem;

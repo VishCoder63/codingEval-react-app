@@ -14,19 +14,25 @@
   font-size: 1.4rem;
   margin-top: 7rem;
 }
+.clickedMovie > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 3px dashed teal;
+  padding: 0.1rem;
+}
 .clickedMovie > div:nth-child(1) {
   width: 50%;
   height: 100%;
 }
 .clickedMovie > div:nth-child(2) {
   width: 45%;
-  height: 50%;
+  min-height: 50%;
   margin: auto;
   background-color: rgb(94, 94, 94);
   color: white;
   border-radius: 10%;
   padding: 2%;
 }
+
 .clickedMovie > div:nth-child(2) .tags {
   display: inline-block;
   height: 2rem;
